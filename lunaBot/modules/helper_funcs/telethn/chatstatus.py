@@ -1,5 +1,5 @@
-from lunaBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from lunaBot import DRAGONS
+from custombot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from custombot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
