@@ -12,18 +12,18 @@ PHOTO = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
 @MEMEK(pattern=("/alive"))
 async def awake(event):
   tai = event.sender.first_name
-  LUNA = "**Holla I'm Luna!** \n\n"
-  LUNA += "🔴 **I'm Working Properly** \n\n"
-  LUNA += "🔴 **My Master : [zeinzo](https://t.me/tdrki_1)** \n\n"
+  LUNA = "**Halo aku robot!** \n\n"
+  LUNA += "🔴 **saya bekerja dengan benar** \n\n"
+  LUNA += "🔴 **saya pengaman grup anda** \n\n"
   LUNA += f"🔴 **Telethon Version : {tlhver}** \n\n"
   LUNA += f"🔴 **Pyrogram Version : {pyrover}** \n\n"
-  LUNA += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/lunatapibot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/lunaXresso")]]
+  LUNA += "**terima kasih telah menambahkan saya di sini**"
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/custombot?start=help")]
   await tbot.send_file(event.chat_id, PHOTO, caption=LUNA,  buttons=BUTTON)
 
 @MEMEK(pattern=("/reload"))
 async def reload(event):
   tai = event.sender.first_name
   LUNA = "✅ **bot restarted successfully**\n\n• Admin list has been **updated**"
-  BUTTON = [[Button.url("📡 ᴜᴘᴅᴀᴛᴇs", "https://t.me/zeinproject")]]
+  BUTTON = [[Button.url("📡 Bot", "https://t.me/{BOT_NAME}")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LUNA,  buttons=BUTTON)
